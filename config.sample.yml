@@ -1,0 +1,3 @@
+steamcmd_location: steamcmd # Add path here, otherwise steamcmd if it's in PATH.
+gameserver_root_location: D:\game-servers
+steam_username: mysteamusername
