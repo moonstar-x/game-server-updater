@@ -97,7 +97,7 @@ class Updater(GameServerUpdater):
   @staticmethod
   def symlink_exists(symlink: str) -> bool:
     path = Path(symlink)
-    return path.exists() and path.is_symlink()
+    return path.exists() or path.is_symlink()
 
   @staticmethod
   def create_symlink(source: str, target: str) -> None:
